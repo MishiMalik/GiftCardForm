@@ -1,0 +1,119 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* ---------------------
+Text
+------------------------------ */
+.f-14{
+    font-size: 14px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-23{
+    font-size: 23px;
+}
+.f-54{
+    font-size: 54px;
+}
+.w-400{
+    font-weight: 400;
+}
+.w-500{
+    font-weight: 500;
+}
+.w-600{
+    font-weight: 600;
+}
+.w-700{
+    font-weight: 700;
+}
+.text-white{
+   color: white;
+}
+a{
+    text-decoration: none;
+}
+.text-light{
+    color: #8492A6;
+}
+.text-dark{
+    color: rgba(75, 85, 99, 1) !important;
+}
+/* ----------------------
+css
+--------------------------- */
+.header{
+    background-image: url('../images/reliable-cleaner-happy-family-london\ 1.png');
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+}
+.form-control{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: rgba(102, 102, 102, 0.43);
+    padding: 11px 15px;
+    background: #FFFFFF;
+border: 1px solid #DCDFE6;
+border-radius: 9px;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.form-btn{
+    background: #4A7EF3;
+border: 1px solid #409EFF;
+border-radius: 4px;
+color: white;
+width: 100%;
+padding: 10px;
+}
+.form-card{
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    padding:10px 5px;
+    color: white;
+}
+.border-right{
+    border-right: 1px solid #F2F2F2;;
+}
+.footer{
+    background: #F1F2F1;
+    padding:30px 0px;
+}
+
+@media only screen and (max-width:991px){
+   .border-right{
+  border: none !important;
+   }
+}
+@media only screen and (max-width:768px){
+    .foot-row{
+        flex-direction: column;
+        align-items: flex-start !important;
+       }
+}
+@media only screen and (max-width:550px){
+   .f-54{
+    text-align: center;
+    font-size: 40px;
+   }
+  
+ }
